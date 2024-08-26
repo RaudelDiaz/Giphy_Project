@@ -1,0 +1,21 @@
+* {
+    text: size adjust 150px; !important;
+}
+.container-fluid {
+    background-color:rgb(212, 0, 255);
+    margin: -10px;
+    text-align: right;
+    font-size: x-large;
+}
+
+button, search {
+    font-size: large;
+}
+
+.search {
+    font-size: large;
+}
+
+#outputArea {
+    margin: 30px auto;px;
+}
