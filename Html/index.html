@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Noto+Sans+Hanunoo&display=swap" rel="stylesheet">
@@ -30,6 +28,48 @@
                     <input type="text" id="searchInput" class="form-control me-2" placeholder="Search for GIFs...">
                     <button id="searchButton" class="btn btn-primary">Search</button>
                 </div>
-               
+                <ul class="navbar-nav ms-3 mb-0">
+                    <li class="nav-item dropdown drop">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Useful links</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Special occasion</a></li>
+                            <li><a class="dropdown-item" href="#">Create your own gif</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row mostviewed">
+            <h1 class="col-12">Most Popular</h1>
+            <ul class="row list-unstyled">
+                <li class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                    <img src="/Html/image/bean.gif" alt="bean" class="img-fluid">
+                </li>
+                <li class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                    <img src="/Html/image/bean2.gif" alt="bean2" class="img-fluid">
+                </li>
+                <li class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                    <img src="/Html/image/kitty1.gif" alt="kitty1" class="img-fluid">
+                </li>
+                <li class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                    <img src="/Html/image/nice.gif" alt="nice" class="img-fluid">
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <h1 class="text1">Your Gif Goes Here</h1>
+    <div class="image-container">
+        <img src="/Html/image/R.png" width="100" class="arrow" alt="arrow">
+    </div>
+    <div id="results"></div>
+    
+    <script src="/Js/main.js"></script>
 </body>
 </html>

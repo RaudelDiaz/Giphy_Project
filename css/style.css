@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bungee Tint', Courier, monospace;
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(46, 83, 10));
+    position: relative;
+  
+}
+
+
+/* Search Input and Button Styles */
+#searchInput {
+    width: 200px; 
+    
+}
+
+#searchButton {
+    margin-left: 10px;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    background-color: #00ff55;
+}
+
+#searchButton:hover {
+    background-color: #ff9900;
+}
+
+
+/* Title Styling */
+.text1 {
+    padding: 50px;
+    text-align: center;
+}
+
+/* Results Section */
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 120px;
+}
+
+/* GIF Container */
+.gif {
+    max-width: 250px;
+    border: 4px solid #00ff55;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.gif img {
+    width: 100%;
+}
+
+/* Image Container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+/* Most Viewed Section */
+.mostviewed {
+    text-align: center;
+    padding: 20px;
+}
+
+.mostviewed h1 {
+    margin-bottom: 20px;
+}
+
+/* Most Viewed List */
+.mostviewed ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px; 
+}
+
+.mostviewed li {
+    margin: 0;
+}
+
+/* Most Viewed Images */
+.mostviewed img {
+    width: 200px; 
+    height: 325px; 
+    object-fit: cover;
+    border: 4px solid #00ff55;
+}
+/* Navbar Toggler Styles */
+.navbar-toggler {
+    border-color: transparent;
+}
+.navbar {
+    background-image: linear-gradient(to right, rgba(2, 107, 55, 0), rgba(96, 170, 0, 0.925));
+    padding: 0.5rem 1rem;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+/* Logo and Text Styling */
+.d-flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.navbar-brand img {
+    height: 50px; 
+    width: auto;
+}
+
+.navbar-brand.text2 {
+    font-size: 1.25rem;
+    color: #000;
+    margin-left: 1rem;
+    text-align: center;
+}
