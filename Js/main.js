@@ -23,7 +23,7 @@ async function fetchGifs() {
         displayResults();
         updatePagination();
     } catch (error) {
-        console.error('Error fetching GIFs:', error);
+        console.log('Error fetching GIFs:', error);
     }
 }
 
